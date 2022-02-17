@@ -10,7 +10,7 @@ Js hackathon app
 
 # Warning
 
-sometimes port 3000 is already occupied by another process, to fix this bug you have to kill the process.
+sometimes port 3000 is already used by another process, to fix this bug you have to kill the process.
 
 1) Find wich process use port 3000 : ```lsof -i :3000```
 2) kill the process : ``` kill <pid>```
